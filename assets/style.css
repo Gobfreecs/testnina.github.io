@@ -270,6 +270,18 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.w-100{
+	aspect-ratio: auto 80 / 37;
+	max-width: 100%;
+  	height: auto;
+}
+
+#about img, #contact img{
+	aspect-ratio: auto 1 / 1;
+	max-width: 100%;
+  	height: auto;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
